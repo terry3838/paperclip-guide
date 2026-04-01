@@ -11,6 +11,17 @@
 
 Quickstart &middot; Docs &middot; GitHub &middot;
 
+## recent upstream commits
+
+- `5b479652 Merge pull request #2327 from radiusred/fix/env-var-plain-to-secret-data-loss`
+- `92e03ac4 fix(ui): prevent dropdown snap-back when switching env var to Secret`
+- `ce8d9eb3 fix(server): preserve adapter-agnostic keys when changing adapter type`
+- `06cf0012 fix(ui): preserve env var when switching type from Plain to Secret`
+- `ebc6888e Merge pull request #1923 from radiusred/fix/docker-volumes`
+- `9f1bb350 Merge pull request #2065 from edimuj/fix/heartbeat-session-reuse`
+- `46ce5461 Merge pull request #2317 from paperclipai/PAP-881-document-revisions-bulid-it`
+- `90889c12 fix(db): make document revision migration replay-safe`
+
 ## top-level structure
 
 - `.agents/`
