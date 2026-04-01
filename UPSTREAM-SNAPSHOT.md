@@ -1,12 +1,15 @@
 # Upstream Snapshot — paperclip
 
 - source repo: `https://github.com/paperclipai/paperclip.git`
-- synced commit: `5b479652f2dda2bff3905ecfb7f1f272e75de733`
+- previous synced commit: `5b479652f2dda2bff3905ecfb7f1f272e75de733`
+- current synced commit: `5b479652f2dda2bff3905ecfb7f1f272e75de733`
+- sync mode: `no-change`
+- impact labels: 일반 변경
 - guide repo: `paperclip-guide`
 
 ## 원본 한줄 요약
 
-<p align="center"> <img src="doc/assets/header.png" alt="Paperclip — runs your business" width="720" /> </p>
+Quickstart &middot; Docs &middot; GitHub &middot;
 
 ## top-level structure
 
@@ -30,6 +33,10 @@
 - `docs/`
 - `evals/`
 - `LICENSE`
+
+## changed files
+
+- 변경 파일 없음
 
 ## README excerpt
 
@@ -113,4 +120,45 @@ It looks like a task manager — but under the hood it has org charts, budgets, 
 - ✅ You want to manage your autonomous businesses **from your phone**
 
 <br/>
+
+## Features
+
+<table>
+<tr>
+<td align="center" width="33%">
+<h3>🔌 Bring Your Own Agent</h3>
+Any agent, any runtime, one org chart. If it can receive a heartbeat, it's hired.
+</td>
+<td align="center" width="33%">
+<h3>🎯 Goal Alignment</h3>
+Every task traces back to the company mission. Agents know <em>what</em> to do and <em>why</em>.
+</td>
+<td align="center" width="33%">
+<h3>💓 Heartbeats</h3>
+Agents wake on a schedule, check work, and act. Delegation flows up and down the org chart.
+</td>
+</tr>
+<tr>
+<td align="center">
+<h3>💰 Cost Control</h3>
+Monthly budgets per agent. When they hit the limit, they stop. No runaway costs.
+</td>
+<td align="center">
+<h3>🏢 Multi-Company</h3>
+One deployment, many companies. Complete data isolation. One control plane for your portfolio.
+</td>
+<td align="center">
+<h3>🎫 Ticket System</h3>
+Every conversation traced. Every decision explained. Full tool-call tracing and immutable audit log.
+</td>
+</tr>
+<tr>
+<td align="center">
+<h3>🛡️ Governance</h3>
+You're the board. Approve hires, override strategy, pause or terminate any agent — at any time.
+</td>
+<td align="center">
+<h3>📊 Org Chart</h3>
+Hierarchies, roles, reporting lines. Your agents have a boss, a title, and a job description.
+</td>
 ```
