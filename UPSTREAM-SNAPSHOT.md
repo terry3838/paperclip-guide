@@ -1,10 +1,10 @@
 # Upstream Snapshot — paperclip
 
 - source repo: `https://github.com/paperclipai/paperclip.git`
-- previous synced commit: `5b479652f2dda2bff3905ecfb7f1f272e75de733`
+- previous synced commit: `056a5ee32a1aac43474030c78b5815cda2c8a79a`
 - current synced commit: `056a5ee32a1aac43474030c78b5815cda2c8a79a`
-- sync mode: `update`
-- impact labels: 문서 구조, 소스코드
+- sync mode: `no-change`
+- impact labels: 일반 변경
 - guide repo: `paperclip-guide`
 
 ## 원본 한줄 요약
@@ -20,7 +20,7 @@ Quickstart &middot; Docs &middot; GitHub &middot;
 - `6aa3ead2 fix: add gemini_local to AGENT_ADAPTER_TYPES validation enum`
 - `e0f64c04 Merge pull request #2407 from radiusred/chore/docker-improvements`
 - `420cd4fd chore(docker): improve base image and organize docker files`
-- `99296f95 fix: append short UUID suffix to project slugs when non-ASCII characters are stripped to prevent slug collisions`
+- `5b479652 Merge pull request #2327 from radiusred/fix/env-var-plain-to-secret-data-loss`
 
 ## top-level structure
 
@@ -47,26 +47,7 @@ Quickstart &middot; Docs &middot; GitHub &middot;
 
 ## changed files
 
-- `Dockerfile`
-- `doc/DEVELOPING.md`
-- `doc/DOCKER.md`
-- `doc/UNTRUSTED-PR-REVIEW.md`
-- `docker/Dockerfile.onboard-smoke`
-- `docker/docker-compose.quickstart.yml`
-- `docker/docker-compose.untrusted-review.yml`
-- `docker/docker-compose.yml`
-- `docker/quadlet/paperclip-db.container`
-- `docker/quadlet/paperclip.container`
-- `docker/quadlet/paperclip.pod`
-- `docs/deploy/docker.md`
-- `packages/shared/src/constants.ts`
-- `packages/shared/src/index.ts`
-- `packages/shared/src/project-url-key.ts`
-- `scripts/docker-build-test.sh`
-- `scripts/docker-entrypoint.sh`
-- `scripts/docker-onboard-smoke.sh`
-- `server/src/services/projects.ts`
-- `ui/src/lib/inbox.test.ts`
+- 변경 파일 없음
 
 ## README excerpt
 

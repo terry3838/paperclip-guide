@@ -30,12 +30,12 @@
 
 - origin repo: `paperclip`
 - latest source commit: `056a5ee32a1a`
-- sync mode: `update`
-- 영향 분류: 문서 구조, 소스코드
+- sync mode: `no-change`
+- 영향 분류: 일반 변경
 
 ### 이번 반영 포인트
 
-origin 변경 파일을 기준으로 guide 문서의 관련 섹션을 다시 읽고 반영했습니다. 핵심 영향 영역: 문서 구조, 소스코드.
+이번 싸이클에서는 origin 변경이 없어 guide 본문은 유지했고, 동기화 기준점만 재확인했습니다.
 
 ### 최근 upstream 커밋
 
@@ -48,26 +48,7 @@ origin 변경 파일을 기준으로 guide 문서의 관련 섹션을 다시 읽
 
 ### 변경 파일 샘플
 
-- `Dockerfile`
-- `doc/DEVELOPING.md`
-- `doc/DOCKER.md`
-- `doc/UNTRUSTED-PR-REVIEW.md`
-- `docker/Dockerfile.onboard-smoke`
-- `docker/docker-compose.quickstart.yml`
-- `docker/docker-compose.untrusted-review.yml`
-- `docker/docker-compose.yml`
-- `docker/quadlet/paperclip-db.container`
-- `docker/quadlet/paperclip.container`
-- `docker/quadlet/paperclip.pod`
-- `docs/deploy/docker.md`
-- `packages/shared/src/constants.ts`
-- `packages/shared/src/index.ts`
-- `packages/shared/src/project-url-key.ts`
-- `scripts/docker-build-test.sh`
-- `scripts/docker-entrypoint.sh`
-- `scripts/docker-onboard-smoke.sh`
-- `server/src/services/projects.ts`
-- `ui/src/lib/inbox.test.ts`
+- 이번 싸이클에서는 신규 변경 파일이 없습니다.
 
 > 이 블록은 guide sync가 자동 갱신합니다.
 <!-- GUIDE_SYNC:END -->
