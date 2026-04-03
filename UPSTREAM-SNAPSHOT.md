@@ -2,9 +2,9 @@
 
 - source repo: `https://github.com/paperclipai/paperclip.git`
 - previous synced commit: `056a5ee32a1aac43474030c78b5815cda2c8a79a`
-- current synced commit: `056a5ee32a1aac43474030c78b5815cda2c8a79a`
-- sync mode: `no-change`
-- impact labels: 일반 변경
+- current synced commit: `36049beeeacc54a79993aac05b8ae1dcf8ea580c`
+- sync mode: `update`
+- impact labels: README/소개, 설치/설정, CLI/명령어, 문서 구조, 소스코드
 - guide repo: `paperclip-guide`
 
 ## 원본 한줄 요약
@@ -13,14 +13,14 @@ Quickstart &middot; Docs &middot; GitHub &middot;
 
 ## recent upstream commits
 
-- `056a5ee3 fix(ui): render agent capabilities field in org chart cards (#2349)`
-- `dedd972e Fix inbox ordering: self-touched issues no longer sink to bottom (#2144)`
-- `6c2c63e0 Merge pull request #2328 from bittoby/fix/project-slug-collision`
-- `461779a9 Merge pull request #2430 from bittoby/fix/add-gemini-local-to-adapter-types`
-- `6aa3ead2 fix: add gemini_local to AGENT_ADAPTER_TYPES validation enum`
-- `e0f64c04 Merge pull request #2407 from radiusred/chore/docker-improvements`
-- `420cd4fd chore(docker): improve base image and organize docker files`
-- `5b479652 Merge pull request #2327 from radiusred/fix/env-var-plain-to-secret-data-loss`
+- `36049bee Merge pull request #2552 from paperclipai/PAPA-42-add-model-used-to-pr-template-and-checklist`
+- `c041fee6 feat: add Model Used section to PR template and checklist`
+- `82290451 Merge pull request #2541 from paperclipai/pap-1078-qol-fixes`
+- `fb3b57ab merge master into pap-1078-qol-fixes`
+- `ca8d35fd Merge pull request #2540 from paperclipai/pap-1078-inbox-operator-polish`
+- `81a7f79d Merge pull request #2539 from paperclipai/pap-1078-workspaces-routines`
+- `ad1ef6a8 fix(ui): address final Greptile follow-up`
+- `833842b3 fix(inbox): address Greptile review findings`
 
 ## top-level structure
 
@@ -47,7 +47,26 @@ Quickstart &middot; Docs &middot; GitHub &middot;
 
 ## changed files
 
-- 변경 파일 없음
+- `.github/CODEOWNERS`
+- `.github/PULL_REQUEST_TEMPLATE.md`
+- `.gitignore`
+- `README.md`
+- `cli/src/__tests__/allowed-hostname.test.ts`
+- `cli/src/__tests__/company-delete.test.ts`
+- `cli/src/__tests__/company-import-url.test.ts`
+- `cli/src/__tests__/company.test.ts`
+- `cli/src/__tests__/doctor.test.ts`
+- `cli/src/__tests__/feedback.test.ts`
+- `cli/src/__tests__/onboard.test.ts`
+- `cli/src/__tests__/routines.test.ts`
+- `cli/src/__tests__/telemetry.test.ts`
+- `cli/src/__tests__/worktree.test.ts`
+- `cli/src/commands/client/company.ts`
+- `cli/src/commands/client/feedback.ts`
+- `cli/src/commands/client/issue.ts`
+- `cli/src/commands/configure.ts`
+- `cli/src/commands/onboard.ts`
+- `cli/src/commands/routines.ts`
 
 ## README excerpt
 
