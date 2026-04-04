@@ -1,10 +1,10 @@
 # Upstream Snapshot — paperclip
 
 - source repo: `https://github.com/paperclipai/paperclip.git`
-- previous synced commit: `056a5ee32a1aac43474030c78b5815cda2c8a79a`
-- current synced commit: `36049beeeacc54a79993aac05b8ae1dcf8ea580c`
+- previous synced commit: `36049beeeacc54a79993aac05b8ae1dcf8ea580c`
+- current synced commit: `8adae848e4f9be916fe72dcdfc3bc3ac818e3f9c`
 - sync mode: `update`
-- impact labels: README/소개, 설치/설정, CLI/명령어, 문서 구조, 소스코드
+- impact labels: CLI/명령어, 문서 구조, 소스코드
 - guide repo: `paperclip-guide`
 
 ## 원본 한줄 요약
@@ -13,14 +13,14 @@ Quickstart &middot; Docs &middot; GitHub &middot;
 
 ## recent upstream commits
 
-- `36049bee Merge pull request #2552 from paperclipai/PAPA-42-add-model-used-to-pr-template-and-checklist`
-- `c041fee6 feat: add Model Used section to PR template and checklist`
-- `82290451 Merge pull request #2541 from paperclipai/pap-1078-qol-fixes`
-- `fb3b57ab merge master into pap-1078-qol-fixes`
-- `ca8d35fd Merge pull request #2540 from paperclipai/pap-1078-inbox-operator-polish`
-- `81a7f79d Merge pull request #2539 from paperclipai/pap-1078-workspaces-routines`
-- `ad1ef6a8 fix(ui): address final Greptile follow-up`
-- `833842b3 fix(inbox): address Greptile review findings`
+- `8adae848 Merge pull request #2675 from paperclipai/pap-feedback-trace-export-fixes`
+- `00898e81 Restore feedback trace export fixes`
+- `ed95fc1d Merge pull request #2674 from paperclipai/fix/feedback-test-uuid-redaction`
+- `e13c3f7c fix: use deterministic UUID in feedback-service test to avoid phone redaction`
+- `f8452a45 Merge pull request #2657 from paperclipai/fix/inbox-last-activity-ordering`
+- `68b2fe20 Address Greptile telemetry review comments`
+- `aa256fee feat: add authenticated screenshot utility (#2622)`
+- `728fbdd1 Fix markdown paste handling in document editor (#2572)`
 
 ## top-level structure
 
@@ -47,26 +47,26 @@ Quickstart &middot; Docs &middot; GitHub &middot;
 
 ## changed files
 
-- `.github/CODEOWNERS`
-- `.github/PULL_REQUEST_TEMPLATE.md`
-- `.gitignore`
-- `README.md`
-- `cli/src/__tests__/allowed-hostname.test.ts`
-- `cli/src/__tests__/company-delete.test.ts`
-- `cli/src/__tests__/company-import-url.test.ts`
-- `cli/src/__tests__/company.test.ts`
-- `cli/src/__tests__/doctor.test.ts`
-- `cli/src/__tests__/feedback.test.ts`
-- `cli/src/__tests__/onboard.test.ts`
-- `cli/src/__tests__/routines.test.ts`
-- `cli/src/__tests__/telemetry.test.ts`
-- `cli/src/__tests__/worktree.test.ts`
-- `cli/src/commands/client/company.ts`
-- `cli/src/commands/client/feedback.ts`
-- `cli/src/commands/client/issue.ts`
-- `cli/src/commands/configure.ts`
-- `cli/src/commands/onboard.ts`
-- `cli/src/commands/routines.ts`
+- `CONTRIBUTING.md`
+- `docs/feedback-voting.md`
+- `packages/shared/src/telemetry/client.ts`
+- `packages/shared/src/telemetry/events.ts`
+- `packages/shared/src/telemetry/index.ts`
+- `packages/shared/src/telemetry/types.ts`
+- `packages/shared/src/types/issue.ts`
+- `releases/v2026.403.0.md`
+- `scripts/screenshot.cjs`
+- `server/src/__tests__/agent-skills-routes.test.ts`
+- `server/src/__tests__/company-skills-routes.test.ts`
+- `server/src/__tests__/feedback-service.test.ts`
+- `server/src/__tests__/feedback-share-client.test.ts`
+- `server/src/__tests__/issue-feedback-routes.test.ts`
+- `server/src/__tests__/project-goal-telemetry-routes.test.ts`
+- `server/src/__tests__/routine-run-telemetry.test.ts`
+- `server/src/__tests__/routines-routes.test.ts`
+- `server/src/__tests__/telemetry-client-flush.test.ts`
+- `server/src/__tests__/workspace-runtime.test.ts`
+- `server/src/app.ts`
 
 ## README excerpt
 
