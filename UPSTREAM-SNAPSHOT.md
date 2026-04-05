@@ -1,10 +1,10 @@
 # Upstream Snapshot — paperclip
 
 - source repo: `https://github.com/paperclipai/paperclip.git`
-- previous synced commit: `36049beeeacc54a79993aac05b8ae1dcf8ea580c`
-- current synced commit: `8adae848e4f9be916fe72dcdfc3bc3ac818e3f9c`
+- previous synced commit: `8adae848e4f9be916fe72dcdfc3bc3ac818e3f9c`
+- current synced commit: `6c8569156c60ab28ce531e25adbe15e8d69ae770`
 - sync mode: `update`
-- impact labels: CLI/명령어, 문서 구조, 소스코드
+- impact labels: 설치/설정, 문서 구조, 스킬/플러그인, 소스코드
 - guide repo: `paperclip-guide`
 
 ## 원본 한줄 요약
@@ -13,23 +13,26 @@ Quickstart &middot; Docs &middot; GitHub &middot;
 
 ## recent upstream commits
 
-- `8adae848 Merge pull request #2675 from paperclipai/pap-feedback-trace-export-fixes`
-- `00898e81 Restore feedback trace export fixes`
-- `ed95fc1d Merge pull request #2674 from paperclipai/fix/feedback-test-uuid-redaction`
-- `e13c3f7c fix: use deterministic UUID in feedback-service test to avoid phone redaction`
-- `f8452a45 Merge pull request #2657 from paperclipai/fix/inbox-last-activity-ordering`
-- `68b2fe20 Address Greptile telemetry review comments`
-- `aa256fee feat: add authenticated screenshot utility (#2622)`
-- `728fbdd1 Fix markdown paste handling in document editor (#2572)`
+- `6c856915 Merge pull request #2792 from paperclipai/pr/master-pre-rebind-recovery`
+- `c1920801 fix: harden worktree dependency hydration`
+- `8ae4c0e7 Clean up opencode rebase and stabilize runtime test`
+- `22af797c Provision local node_modules in issue worktrees`
+- `27accb1b Clarify issue-scoped comment wake prompts`
+- `b9b2bf3b Trim resumed comment wake prompts`
+- `4dea3027 Speed up issues-page search`
+- `b825a121 Prioritize comment wake prompts`
 
 ## top-level structure
 
 - `.agents/`
 - `.claude/`
 - `.dockerignore`
+- `.env`
 - `.env.example`
 - `.mailmap`
 - `.npmrc`
+- `.omx/`
+- `adapter-plugin.md`
 - `AGENTS.md`
 - `cli/`
 - `CONTRIBUTING.md`
@@ -39,34 +42,31 @@ Quickstart &middot; Docs &middot; GitHub &middot;
 - `docs/`
 - `evals/`
 - `LICENSE`
+- `node_modules/`
 - `package.json`
-- `packages/`
-- `patches/`
-- `pnpm-lock.yaml`
-- `pnpm-workspace.yaml`
 
 ## changed files
 
-- `CONTRIBUTING.md`
-- `docs/feedback-voting.md`
-- `packages/shared/src/telemetry/client.ts`
-- `packages/shared/src/telemetry/events.ts`
-- `packages/shared/src/telemetry/index.ts`
-- `packages/shared/src/telemetry/types.ts`
-- `packages/shared/src/types/issue.ts`
-- `releases/v2026.403.0.md`
-- `scripts/screenshot.cjs`
-- `server/src/__tests__/agent-skills-routes.test.ts`
-- `server/src/__tests__/company-skills-routes.test.ts`
-- `server/src/__tests__/feedback-service.test.ts`
-- `server/src/__tests__/feedback-share-client.test.ts`
-- `server/src/__tests__/issue-feedback-routes.test.ts`
-- `server/src/__tests__/project-goal-telemetry-routes.test.ts`
-- `server/src/__tests__/routine-run-telemetry.test.ts`
-- `server/src/__tests__/routines-routes.test.ts`
-- `server/src/__tests__/telemetry-client-flush.test.ts`
-- `server/src/__tests__/workspace-runtime.test.ts`
-- `server/src/app.ts`
+- `AGENTS.md`
+- `adapter-plugin.md`
+- `docs/adapters/adapter-ui-parser.md`
+- `docs/adapters/claude-local.md`
+- `docs/adapters/creating-an-adapter.md`
+- `docs/adapters/external-adapters.md`
+- `docs/adapters/overview.md`
+- `docs/agents-runtime.md`
+- `docs/docs.json`
+- `packages/adapter-utils/src/index.ts`
+- `packages/adapter-utils/src/log-redaction.ts`
+- `packages/adapter-utils/src/server-utils.ts`
+- `packages/adapter-utils/src/session-compaction.ts`
+- `packages/adapter-utils/src/types.ts`
+- `packages/adapters/claude-local/src/index.ts`
+- `packages/adapters/claude-local/src/server/execute.ts`
+- `packages/adapters/claude-local/src/server/test.ts`
+- `packages/adapters/codex-local/src/server/execute.ts`
+- `packages/adapters/cursor-local/src/server/execute.ts`
+- `packages/adapters/gemini-local/src/server/execute.ts`
 
 ## README excerpt
 
@@ -85,7 +85,7 @@ Quickstart &middot; Docs &middot; GitHub &middot;
 <p align="center">
   <a href="https://github.com/paperclipai/paperclip/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a>
   <a href="https://github.com/paperclipai/paperclip/stargazers"><img src="https://img.shields.io/github/stars/paperclipai/paperclip?style=flat" alt="Stars" /></a>
-  <a href="https://discord.gg/m4HZY7xNG3"><img src="https://img.shields.io/discord/[REDACTED_PHONE]?label=discord" alt="Discord" /></a>
+  <a href="https://discord.gg/m4HZY7xNG3"><img src="https://img.shields.io/discord/000000000?label=discord" alt="Discord" /></a>
 </p>
 
 <br/>

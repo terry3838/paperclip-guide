@@ -29,45 +29,45 @@
 ## 자동 동기화 상태
 
 - origin repo: `paperclip`
-- latest source commit: `8adae848e4f9`
+- latest source commit: `6c8569156c60`
 - sync mode: `update`
-- 영향 분류: CLI/명령어, 문서 구조, 소스코드
+- 영향 분류: 설치/설정, 문서 구조, 스킬/플러그인, 소스코드
 
 ### 이번 반영 포인트
 
-origin 변경 파일을 기준으로 guide 문서의 관련 섹션을 다시 읽고 반영했습니다. 핵심 영향 영역: CLI/명령어, 문서 구조, 소스코드.
+origin 변경 파일을 기준으로 guide 문서의 관련 섹션을 다시 읽고 반영했습니다. 핵심 영향 영역: 설치/설정, 문서 구조, 스킬/플러그인, 소스코드.
 
 ### 최근 upstream 커밋
 
-- `8adae848 Merge pull request #2675 from paperclipai/pap-feedback-trace-export-fixes`
-- `00898e81 Restore feedback trace export fixes`
-- `ed95fc1d Merge pull request #2674 from paperclipai/fix/feedback-test-uuid-redaction`
-- `e13c3f7c fix: use deterministic UUID in feedback-service test to avoid phone redaction`
-- `f8452a45 Merge pull request #2657 from paperclipai/fix/inbox-last-activity-ordering`
-- `68b2fe20 Address Greptile telemetry review comments`
+- `6c856915 Merge pull request #2792 from paperclipai/pr/master-pre-rebind-recovery`
+- `c1920801 fix: harden worktree dependency hydration`
+- `8ae4c0e7 Clean up opencode rebase and stabilize runtime test`
+- `22af797c Provision local node_modules in issue worktrees`
+- `27accb1b Clarify issue-scoped comment wake prompts`
+- `b9b2bf3b Trim resumed comment wake prompts`
 
 ### 변경 파일 샘플
 
-- `CONTRIBUTING.md`
-- `docs/feedback-voting.md`
-- `packages/shared/src/telemetry/client.ts`
-- `packages/shared/src/telemetry/events.ts`
-- `packages/shared/src/telemetry/index.ts`
-- `packages/shared/src/telemetry/types.ts`
-- `packages/shared/src/types/issue.ts`
-- `releases/v2026.403.0.md`
-- `scripts/screenshot.cjs`
-- `server/src/__tests__/agent-skills-routes.test.ts`
-- `server/src/__tests__/company-skills-routes.test.ts`
-- `server/src/__tests__/feedback-service.test.ts`
-- `server/src/__tests__/feedback-share-client.test.ts`
-- `server/src/__tests__/issue-feedback-routes.test.ts`
-- `server/src/__tests__/project-goal-telemetry-routes.test.ts`
-- `server/src/__tests__/routine-run-telemetry.test.ts`
-- `server/src/__tests__/routines-routes.test.ts`
-- `server/src/__tests__/telemetry-client-flush.test.ts`
-- `server/src/__tests__/workspace-runtime.test.ts`
-- `server/src/app.ts`
+- `AGENTS.md`
+- `adapter-plugin.md`
+- `docs/adapters/adapter-ui-parser.md`
+- `docs/adapters/claude-local.md`
+- `docs/adapters/creating-an-adapter.md`
+- `docs/adapters/external-adapters.md`
+- `docs/adapters/overview.md`
+- `docs/agents-runtime.md`
+- `docs/docs.json`
+- `packages/adapter-utils/src/index.ts`
+- `packages/adapter-utils/src/log-redaction.ts`
+- `packages/adapter-utils/src/server-utils.ts`
+- `packages/adapter-utils/src/session-compaction.ts`
+- `packages/adapter-utils/src/types.ts`
+- `packages/adapters/claude-local/src/index.ts`
+- `packages/adapters/claude-local/src/server/execute.ts`
+- `packages/adapters/claude-local/src/server/test.ts`
+- `packages/adapters/codex-local/src/server/execute.ts`
+- `packages/adapters/cursor-local/src/server/execute.ts`
+- `packages/adapters/gemini-local/src/server/execute.ts`
 
 > 이 블록은 guide sync가 자동 갱신합니다.
 <!-- GUIDE_SYNC:END -->
