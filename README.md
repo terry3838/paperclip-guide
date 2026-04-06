@@ -30,12 +30,12 @@
 
 - origin repo: `paperclip`
 - latest source commit: `6c8569156c60`
-- sync mode: `update`
-- 영향 분류: 설치/설정, 문서 구조, 스킬/플러그인, 소스코드
+- sync mode: `no-change`
+- 영향 분류: 일반 변경
 
 ### 이번 반영 포인트
 
-origin 변경 파일을 기준으로 guide 문서의 관련 섹션을 다시 읽고 반영했습니다. 핵심 영향 영역: 설치/설정, 문서 구조, 스킬/플러그인, 소스코드.
+이번 싸이클에서는 origin 변경이 없어 guide 본문은 유지했고, 동기화 기준점만 재확인했습니다.
 
 ### 최근 upstream 커밋
 
@@ -48,26 +48,7 @@ origin 변경 파일을 기준으로 guide 문서의 관련 섹션을 다시 읽
 
 ### 변경 파일 샘플
 
-- `AGENTS.md`
-- `adapter-plugin.md`
-- `docs/adapters/adapter-ui-parser.md`
-- `docs/adapters/claude-local.md`
-- `docs/adapters/creating-an-adapter.md`
-- `docs/adapters/external-adapters.md`
-- `docs/adapters/overview.md`
-- `docs/agents-runtime.md`
-- `docs/docs.json`
-- `packages/adapter-utils/src/index.ts`
-- `packages/adapter-utils/src/log-redaction.ts`
-- `packages/adapter-utils/src/server-utils.ts`
-- `packages/adapter-utils/src/session-compaction.ts`
-- `packages/adapter-utils/src/types.ts`
-- `packages/adapters/claude-local/src/index.ts`
-- `packages/adapters/claude-local/src/server/execute.ts`
-- `packages/adapters/claude-local/src/server/test.ts`
-- `packages/adapters/codex-local/src/server/execute.ts`
-- `packages/adapters/cursor-local/src/server/execute.ts`
-- `packages/adapters/gemini-local/src/server/execute.ts`
+- 이번 싸이클에서는 신규 변경 파일이 없습니다.
 
 > 이 블록은 guide sync가 자동 갱신합니다.
 <!-- GUIDE_SYNC:END -->

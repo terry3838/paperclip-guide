@@ -1,10 +1,10 @@
 # Upstream Snapshot — paperclip
 
 - source repo: `https://github.com/paperclipai/paperclip.git`
-- previous synced commit: `8adae848e4f9be916fe72dcdfc3bc3ac818e3f9c`
+- previous synced commit: `6c8569156c60ab28ce531e25adbe15e8d69ae770`
 - current synced commit: `6c8569156c60ab28ce531e25adbe15e8d69ae770`
-- sync mode: `update`
-- impact labels: 설치/설정, 문서 구조, 스킬/플러그인, 소스코드
+- sync mode: `no-change`
+- impact labels: 일반 변경
 - guide repo: `paperclip-guide`
 
 ## 원본 한줄 요약
@@ -47,26 +47,7 @@ Quickstart &middot; Docs &middot; GitHub &middot;
 
 ## changed files
 
-- `AGENTS.md`
-- `adapter-plugin.md`
-- `docs/adapters/adapter-ui-parser.md`
-- `docs/adapters/claude-local.md`
-- `docs/adapters/creating-an-adapter.md`
-- `docs/adapters/external-adapters.md`
-- `docs/adapters/overview.md`
-- `docs/agents-runtime.md`
-- `docs/docs.json`
-- `packages/adapter-utils/src/index.ts`
-- `packages/adapter-utils/src/log-redaction.ts`
-- `packages/adapter-utils/src/server-utils.ts`
-- `packages/adapter-utils/src/session-compaction.ts`
-- `packages/adapter-utils/src/types.ts`
-- `packages/adapters/claude-local/src/index.ts`
-- `packages/adapters/claude-local/src/server/execute.ts`
-- `packages/adapters/claude-local/src/server/test.ts`
-- `packages/adapters/codex-local/src/server/execute.ts`
-- `packages/adapters/cursor-local/src/server/execute.ts`
-- `packages/adapters/gemini-local/src/server/execute.ts`
+- 변경 파일 없음
 
 ## README excerpt
 
