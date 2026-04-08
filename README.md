@@ -30,12 +30,12 @@
 
 - origin repo: `paperclip`
 - latest source commit: `08fea10ce1af`
-- sync mode: `update`
-- 영향 분류: 설치/설정, 문서 구조, 스킬/플러그인, 소스코드
+- sync mode: `no-change`
+- 영향 분류: 일반 변경
 
 ### 이번 반영 포인트
 
-origin 변경 파일을 기준으로 guide 문서의 관련 섹션을 다시 읽고 반영했습니다. 핵심 영향 영역: 설치/설정, 문서 구조, 스킬/플러그인, 소스코드.
+이번 싸이클에서는 origin 변경이 없어 guide 본문은 유지했고, 동기화 기준점만 재확인했습니다.
 
 ### 최근 upstream 커밋
 
@@ -48,26 +48,7 @@ origin 변경 파일을 기준으로 guide 문서의 관련 섹션을 다시 읽
 
 ### 변경 파일 샘플
 
-- `AGENTS.md`
-- `CONTRIBUTING.md`
-- `doc/SPEC-implementation.md`
-- `docs/api/issues.md`
-- `docs/guides/agent-developer/heartbeat-protocol.md`
-- `docs/guides/agent-developer/task-workflow.md`
-- `packages/adapters/claude-local/src/server/execute.ts`
-- `packages/adapters/claude-local/src/server/quota.ts`
-- `packages/adapters/claude-local/src/server/test.ts`
-- `packages/adapters/openclaw-gateway/src/server/execute.ts`
-- `packages/adapters/pi-local/src/server/execute.ts`
-- `packages/adapters/pi-local/src/server/parse.test.ts`
-- `packages/adapters/pi-local/src/server/parse.ts`
-- `packages/db/src/index.ts`
-- `packages/db/src/migrations/0049_flawless_abomination.sql`
-- `packages/db/src/migrations/meta/0049_snapshot.json`
-- `packages/db/src/migrations/meta/_journal.json`
-- `packages/db/src/schema/index.ts`
-- `packages/db/src/schema/issue_relations.ts`
-- `packages/shared/src/constants.ts`
+- 이번 싸이클에서는 신규 변경 파일이 없습니다.
 
 > 이 블록은 guide sync가 자동 갱신합니다.
 <!-- GUIDE_SYNC:END -->
